@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+/* ── Card Fan Carousel Layout & Card Styles ── */
+.fan-layout {
+  position: relative;
+  width: 100%;
+  height: 22rem;
+}
+@media (min-width: 640px) {
+  .fan-layout {
+    height: 26rem;
+  }
+}
+@media (min-width: 768px) {
+  .fan-layout {
+    height: 28rem;
+  }
+}
+@media (min-width: 1024px) {
+  .fan-layout {
+    height: 34rem;
+  }
+}
+@media (min-width: 1280px) {
+  .fan-layout {
+    height: 38rem;
+  }
+}
+
+.fan-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10.5rem;
+  height: 14rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  will-change: transform, opacity;
+  transform-origin: center center;
+  backface-visibility: hidden;
+}
+@media (min-width: 640px) {
+  .fan-card {
+    width: 12.5rem;
+    height: 17rem;
+    border-radius: 1.25rem;
+  }
+}
+@media (min-width: 768px) {
+  .fan-card {
+    width: 14.5rem;
+    height: 20rem;
+  }
+}
+@media (min-width: 1024px) {
+  .fan-card {
+    width: 16.5rem;
+    height: 23rem;
+  }
+}
+@media (min-width: 1280px) {
+  .fan-card {
+    width: 18.5rem;
+    height: 26rem;
+  }
+}

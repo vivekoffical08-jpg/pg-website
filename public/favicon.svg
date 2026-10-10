@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <circle cx="32" cy="32" r="30" fill="#1A1A1A" stroke="#8B7355" stroke-width="2"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#A69374" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.6"/>
+  <!-- Elegant Serif Letter N -->
+  <text 
+    x="50%" 
+    y="54%" 
+    dominant-baseline="middle" 
+    text-anchor="middle" 
+    font-family="'DM Serif Display', 'Georgia', serif" 
+    font-size="34" 
+    font-weight="bold" 
+    fill="#F5F0EB"
+    letter-spacing="0"
+  >N</text>
+  <!-- Subtle luxury bronze dot accent -->
+  <circle cx="32" cy="51" r="1.5" fill="#8B7355"/>
+</svg>
