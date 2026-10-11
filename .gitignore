@@ -28,3 +28,6 @@ npm-debug.log*
 
 # Security agent (local tool, not for deployment)
 security-agent/
+
+# Local Netlify folder
+.netlify
