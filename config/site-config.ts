@@ -97,7 +97,7 @@ export const SITE_CONFIG = {
     {
       id: 'twin',
       type: 'Twin Sharing',
-      price: '9,000',
+      price: '9,500',
       priceSuffix: '/person / month',
       description:
         'Spacious double-sharing suite equipped with two wooden beds, individual study desks, ergonomic chairs, and large wardrobe with dressing mirror.',
@@ -107,7 +107,7 @@ export const SITE_CONFIG = {
     {
       id: 'triple',
       type: 'Triple Sharing',
-      price: '7,000',
+      price: '7,500',
       priceSuffix: '/person / month',
       description:
         'Practical, airy co-living accommodation with sturdy wooden beds, individual storage, cross-ventilation, and high-speed Wi-Fi.',
